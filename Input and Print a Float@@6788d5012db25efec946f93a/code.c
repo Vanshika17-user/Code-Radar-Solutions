@@ -3,5 +3,5 @@ int main(){
   float f
     scanf("%f",&f);
     printf("%f",f);
-    retun 0;
+    return 0;
 }
