@@ -6,5 +6,5 @@ int main(){
     printf("Prime");
     else if(n%2==0)
     printf("Prime");
-    else printf("Not Prime")
+    else printf("Not Prime");
 }
