@@ -5,11 +5,11 @@ int main(){
     scanf("%d%d",&a,&b);
     scanf("%c",&s);
     if(s=='+')
-    printf(a+b);
+    printf("%d",a+b);
     else if(s=='-')
-    printf(a-b);
+    printf("%d",a-b);
     else if(s=='*')
-    printf(a*b);
-    else printf(a/b);
+    printf("%d",a*b);
+    else printf("%d",a/b);
     return 0;
 }
