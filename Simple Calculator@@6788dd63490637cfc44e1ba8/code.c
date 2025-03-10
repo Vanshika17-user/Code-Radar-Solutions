@@ -2,18 +2,17 @@
 int main(){
     int a,b;
     char s;
-    scanf("%d%d",&a,&b);
-    scanf("%c",&s);
-    {if(s=='+')
-    printf("%d",a+b);
+    scanf("%d%d%c",&a,&b,&s);
+    if(s=='+')
+    printf("%d\n",a+b);
     else if(s=='-')
-    printf("%d",a-b);
+    printf("%d\n",a-b);
     else if(s=='*')
-    printf("%d",a*b);}
+    printf("%d\n",a*b);
    else if (s == '/') {
         if (b != 0)
-            printf(" %d", a / b);
+            printf(" %d\n", a / b);
         else
-            printf("error");
+            printf("error\n");
     } else
-        printf("error");}
+        printf("error\n");}
