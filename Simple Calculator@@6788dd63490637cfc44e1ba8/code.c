@@ -5,14 +5,14 @@ int main(){
     scanf("%d%d",&a,&b);
     scanf("%s",&s);
     if(s=='+')
-    printf("%d\n",(int)a+b);
+    printf("%d\n",(int)(a+b));
     else if(s=='-')
-    printf("%d\n",(int)a-b);
+    printf("%d\n",(int)(a-b));
     else if(s=='*')
-    printf("%d\n",(int)a*b);
+    printf("%d\n",(int)(a*b));
    else if (s == '/') {
         if (b != 0)
-            printf(" %d\n",(int) a / b);
+            printf(" %d\n",(int) (a / b));
         else
             printf("error\n");
     } else
