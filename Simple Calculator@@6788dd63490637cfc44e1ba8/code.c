@@ -7,17 +7,17 @@ int main() {
     scanf(" %c", &operator);
     switch (operator) {
         case '+':
-            printf("%.2f\n", (float)num1 + num2);
+            printf("%d\n", (int)num1 + num2);
             break;
         case '-':
-            printf("%.2f\n", (float)num1 - num2);
+            printf("%d\n", (int)num1 - num2);
             break;
         case '*':
-            printf("%.2f\n", (float)num1 * num2);
+            printf("%d\n", (int)num1 * num2);
             break;
         case '/':
             if (num2 != 0) {
-                printf("%.2f\n", (float)num1 / num2);
+                printf("%d\n", (int)num1 / num2);
             } else {
                 printf("error\n");
             }
