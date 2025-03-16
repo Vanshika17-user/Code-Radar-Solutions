@@ -2,7 +2,7 @@
 int main(){
     char n;
     scanf("%c";&n);
-    switch(n);
+    switch(n){
     case 'A':
     printf("Excellent");
     case 'B':
@@ -14,6 +14,6 @@ int main(){
     case 'F':
     printf("Fail");
     default:
-    printf("Invalid Grade");
+    printf("Invalid Grade");}
     return 0;
 }
